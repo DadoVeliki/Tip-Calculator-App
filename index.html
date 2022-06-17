@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono"/>
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; display:none; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="levo">
+  Bill<br><br>
+  <span><input id="dol" type="number" placeholder="0" style="text-align:right; font-size: 24px;" min="0"></span>
+<br><br><br>
+  Select Tip %
+  <br>
+  <button>5%</button>
+  <button>10%</button>
+  <button>15%</button>
+  <br>
+  <button>25%</button>
+  <button>50%</button>
+  <input class="custom" type="number" placeholder="Custom" style="text-align:right;">
+  <br><br>
+  <div class="dvakom">Number of People<br><br><span class="zero"></span></div>
+  <span><input id="ljudi" type="number" placeholder="0" style="text-align:right;font-size: 24px;" min="0"></span>
+</div>
+
+<div class="desno">
+<table>
+  <tr >
+    <td class="tekst">Tip Amount<br>/ person</td>
+    <td class="nula">$0.00</td>
+  </tr>
+  <tr>
+    <td class="aaaa">A<br>A</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="tekst">Total<br>/ person</td>
+    <td class="nula1">$0.00</td>
+  </tr>
+</table>
+  <br><br>
+  <button class="reset">RESET</button>
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
